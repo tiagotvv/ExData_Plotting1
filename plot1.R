@@ -3,7 +3,7 @@
 # plot1.R - script to create file plot1.png
 #
 # Tiago T. V. Vinhoza
-# May 11, 2014
+# June 8, 2014
 
 source("ProcessData.R")
 
