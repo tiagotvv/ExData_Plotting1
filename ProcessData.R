@@ -3,7 +3,7 @@
 # ProcessData.R - function to perform preprocessing on the dataset
 #
 # Tiago T. V. Vinhoza
-# May 11, 2014
+# June 8, 2014
 
 ProcessData <- function(filename){
 #
