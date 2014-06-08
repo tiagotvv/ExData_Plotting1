@@ -16,7 +16,7 @@ if(!exists("PowerConsumption")){
 
 
 png(filename = "plot2.png",width = 480, height = 480, units = "px")
-plot(PowerConsumption$Global_active_power,type="n", xaxt='n', xlab="", ylab="Global Active Power (kilowatts)")
+plot(PowerConsumption$Global_active_power,type="n", xaxt='n', xlab="", ylab="Global Active Power (Kilowatts)")
 axis(1,at=c(1,1441,2880),labels=c("Thu","Fri","Sat"))
 lines(PowerConsumption$Global_active_power)
 dev.off()

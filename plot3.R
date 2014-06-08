@@ -15,7 +15,7 @@ if(!exists("PowerConsumption")){
 }
 
 png(filename = "plot3.png",width = 480, height = 480, units = "px")
-plot(PowerConsumption$Sub_metering_1,type="n",xaxt='n', xlab="", ylab="Energy Sub metering")
+plot(PowerConsumption$Sub_metering_1,type="n",xaxt='n', xlab="", ylab="Energy Sub Metering")
 axis(1,at=c(1,1441,2880),labels=c("Thu","Fri","Sat"))
 lines(PowerConsumption$Sub_metering_1)
 lines(PowerConsumption$Sub_metering_2,col="red")
